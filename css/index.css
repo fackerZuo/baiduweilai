@@ -198,6 +198,12 @@ body,html,a,ul,li{
 .banner{
 	min-width: 955px;
 }
+.banner img{
+	transition: transform .5s;
+}
+.banner img:hover{
+	transform: matrix(1.04,0,0,1.04,0,0);
+}
 .clf:after,.clf:before{
     content: ".";
     display: block;
@@ -284,6 +290,16 @@ body,html,a,ul,li{
 .banner-right img{
 	width: 100%;
 }
+.bbimg{
+	width:100%;
+	display: block;
+	overflow: hidden;
+}
+.banner-smallimg{
+	width:100%;
+	display: block;
+	overflow: hidden;
+}
 .banner-smallimg img{
 	width: 50%!important;
 	float: left;
@@ -354,6 +370,16 @@ body,html,a,ul,li{
 	text-decoration: underline;
 }
 /*onebody end*/
+.many img{
+	-webkit-transition: all .6s ease-out;
+    -moz-transition: all .6s ease-out;
+    -ms-transition: all .6s ease-out;
+    -o-transition: all .6s ease-out;
+    transition: all .6s ease-out;
+}
+.many img:hover{
+	transform:translate3d(3%,0,0);
+}
 .fourlike{
 	width: 1200px;
 	margin:40px auto;
